@@ -79,7 +79,7 @@ cdfaixa	integer		primary key,
 nmfaixa	varchar(30),
 vlminimo	decimal(14,2),
 vlmaximo	decimal(14,2),
-check(vlminimo > 0),
+check(vlminimo >= 0),
 check(vlmaximo > 0)
 )
 
