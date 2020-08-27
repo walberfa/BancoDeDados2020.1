@@ -3,10 +3,10 @@ CREATE TABLE Fornecedor(
 	nome		varchar(40) 	not null,
 	endereco	varchar(30),
 	cidade		varchar(20) 	not null,
-  PRIMARY KEY (codigo)
+	PRIMARY KEY (codigo)
 );
 CREATE TABLE Peca(
-  codPeca	int,
+ 	codPeca	int,
 	nome		varchar(40) 	not null,
 	descricao	varchar(200),
 	dataFab	date,
@@ -16,7 +16,7 @@ CREATE TABLE Peca(
 );
 CREATE TABLE Venda(
 	codForn	int 		not null,
-  codPeca	int 		not null,
+	codPeca	int 		not null,
 	quantidade	int 		not null,
 	data		date 		default sysdate,
 	CHECK (quantidade>0),
