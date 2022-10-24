@@ -118,13 +118,13 @@ insert into Registro(id_registro, livro_fk, biblioteca_fk) values (20, 13, 1);
 insert into Pessoa(id_pessoa, nome, endereco, cpf, email, telefone) values (1, "Mariana Nunes", null, "68686999301", "marinunes13@gmail.com", null);
 insert into Pessoa(id_pessoa, nome, endereco, cpf, email, telefone) values (2, "Fabio Amorim", null, "50948907355", "fabioamorim@gmail.com", null);
 insert into Pessoa(id_pessoa, nome, endereco, cpf, email, telefone) values (3, "Lucas Brito", null, "00452647320", null, "85988741233");
-insert into Pessoa(id_pessoa, nome, endereco, cpf, email, telefone) values (4, "Vera Lucia", null, "53439517322", "vlucia123@gmail.com, null);
+insert into Pessoa(id_pessoa, nome, endereco, cpf, email, telefone) values (4, "Vera Lucia", null, "53439517322", "vlucia123@gmail.com", null);
 insert into Pessoa(id_pessoa, nome, endereco, cpf, email, telefone) values (5, "Amanda Oliveira", null, "10429228376", "oliv.amanda@gmail.com", null);
-insert into Pessoa(id_pessoa, nome, endereco, cpf, email, telefone) values (6, "João Moura", null, "64518517369", null, "85934678873);
+insert into Pessoa(id_pessoa, nome, endereco, cpf, email, telefone) values (6, "João Moura", null, "64518517369", null, "85934678873");
 
 
-inser into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (1, 1, 12, 09/29/2020, 10/13/2020, 1, 0);
-inser into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (2, 1, 20, 10/13/2020, 10/27/2020, 0, 0);
-inser into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (3, 4, 3, 09/30/2020, 10/14/2020, 0, 1);
-inser into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (4, 6, 13, 10/05/2020, 10/19/2020, 1, 0);
-inser into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (5, 2, 16, 10/05/2020, 10/19/2020, 0, 1);
+insert into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (1, 1, 12, 09/29/2020, 10/13/2020, 1, 0);
+insert into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (2, 1, 20, 10/13/2020, 10/27/2020, 0, 0);
+insert into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (3, 4, 3, 09/30/2020, 10/14/2020, 0, 1);
+insert into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (4, 6, 13, 10/05/2020, 10/19/2020, 1, 0);
+insert into Emprestimo(id_emprestimo, pessoa_fk, registro_fk, data_emprestimo, data_devolucao, devolvido, atrasado) values (5, 2, 16, 10/05/2020, 10/19/2020, 0, 1);
